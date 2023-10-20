@@ -1,13 +1,15 @@
 .menu-bar__item{
 	display: flex;
 	margin:auto;
-	align-items: center;
 }
 
 .menu-bar__item > ul{
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
+	width: 300%;
+	align-items: center;
+	justify-content: center;
 }
 
 .menu-bar__item > ul > li{

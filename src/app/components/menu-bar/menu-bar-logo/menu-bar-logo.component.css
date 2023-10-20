@@ -5,6 +5,7 @@
 }
 
 .menu-bar__logo > img{
+	align-items: left;
 	width: 140px;
 	height: 32px;
 }

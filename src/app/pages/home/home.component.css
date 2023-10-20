@@ -6,6 +6,11 @@
 	flex-direction: row;
 
 	justify-content: space-around;
-	align-items: baseline;
+	align-items: center;
 	flex-wrap: wrap;
+}
+
+.app-cards{
+	display: flex;
+	flex-direction: row;
 }

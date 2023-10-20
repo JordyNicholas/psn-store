@@ -11,6 +11,9 @@ import { CardPricingComponent } from './components/card/card-pricing/card-pricin
 import { MenuBarItemComponent } from './components/menu-bar/menu-bar-item/menu-bar-item.component';
 import { MenuBarLogoComponent } from './components/menu-bar/menu-bar-logo/menu-bar-logo.component';
 
+import { CommonModule } from '@angular/common';
+import { SideMenuComponent } from './components/side-menu/side-menu.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +23,13 @@ import { MenuBarLogoComponent } from './components/menu-bar/menu-bar-logo/menu-b
     CardLabelComponent,
     CardPricingComponent,
     MenuBarItemComponent,
-    MenuBarLogoComponent
+    MenuBarLogoComponent,
+    SideMenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+		CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
